@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="workspace_manager_b" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+    <name>Workspace Manager B</name>
+    <description>Files in the Workspace folder can be managed and edited.</description>
+    <repo type="github">https://github.com/Petertron/workspace_manager_b</repo>
+    <!--<url type="discuss">http://symphony-cms.com/discuss/thread/</url>-->
+    <types>
+        <type>Workflow</type>
+    </types>
+    <authors>
+        <author>
+            <name github="Petertron" symphony="Petertron">Peter Skirenko</name>
+        </author>
+    </authors>
+    <releases>
+        <release version="0.1.0" date="2014-08-18" min="2.4">
+            - Initial release.
+        </release>
+    </releases>
+</extension> 
