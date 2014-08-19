@@ -2,7 +2,7 @@
 	{%each files%}
 	<tr>
 		<td>
-			<a href="<?= $editor_url ?>${name}/">${name}</a>
+			<a href="<?php echo $editor_url; ?>${name}/">${name}</a>
 			<input type="checkbox" name="items[${name}]"/>
 		</td>
 		<td>${size}</td>

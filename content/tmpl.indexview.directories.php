@@ -2,7 +2,7 @@
 	{%each directories%}
 	<tr>
 		<td>
-			<a href="<?= $workspace_url ?>${name}/">${name}</a>
+			<a href="<?php echo $workspace_url; ?>${name}/">${name}</a>
 			<label class="accessible" for="${name}">${name}</label><input type="checkbox" name="items[${name}]" id="${name}"/>
 		</td>
 	</tr>
